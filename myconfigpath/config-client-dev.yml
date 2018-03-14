@@ -1,12 +1,12 @@
 server:
-  port: 8086
+  port: 8087
 spring:
   application:
     name: authentic-service
 eureka:
   instance:
     hostname: localhost
-    instance-id: localhost:8086
+    instance-id: localhost:8087
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:8080/eureka/  #注册中心地址
